@@ -79,8 +79,12 @@ WIP
 请参阅: [cargo-xdk](https://github.com/tiann/cargo-xdk)
 
 可以通过如下命令检查是否成功: `./gradlew cargoBuild`，成功的话可以在 `app/src/main/jniLibs/arm64-v8a` 看到 libtwoyi.so。
-
 PS. 请安装 ndk 22 或者更低版本，高版本可能无法编译成功。
+
+#### 自定义 ndk 和 jdk 路径
+
+1. export ANDROID_NDK_HOME=xxx/ndk/22.0.7026061
+2. export JAVA_HOME=xxx/android-studio/jbr (使用 Android Studio 的 jdk，或者设置成你本地的)
 
 ### 集成 rootfs
 
