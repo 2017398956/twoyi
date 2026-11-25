@@ -103,3 +103,7 @@ PS. 请安装 ndk 22 或者更低版本，高版本可能无法编译成功。
 ## 联系我
 
 twsxtd@gmail.com
+
+libadb.so https://github.com/tytydraco/LADB
+libloader.so 这个应该也是从 AOSP 编译的。
+libOpenglRender.so 是从 AOSP 编译的。
